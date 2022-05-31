@@ -35,7 +35,6 @@ namespace guitarr
 
         private void Stage(object sender, EventArgs e)
         {
-            Console.WriteLine("3");
         }
 
         private void Form1_KeyUp(object sender, KeyEventArgs e)
