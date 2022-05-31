@@ -27,7 +27,9 @@ namespace guitarr
 
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        
+
+        private void Stage(object sender, EventArgs e)
         {
 
         }
