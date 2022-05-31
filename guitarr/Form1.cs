@@ -12,7 +12,9 @@ namespace guitarr
 {
     public partial class Form1 : Form
     {
-       
+        int Score = 0;
+        bool isKeyy = false;
+        int objectspeed = 30;
 
         public Form1()
         {
@@ -34,6 +36,16 @@ namespace guitarr
         private void Stage(object sender, EventArgs e)
         {
             Console.WriteLine("3");
+        }
+
+        private void Form1_KeyUp(object sender, KeyEventArgs e)
+        {
+
+        }
+
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+
         }
     }
 }
