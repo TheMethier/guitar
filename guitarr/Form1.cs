@@ -15,7 +15,7 @@ namespace guitarr
         int Score = 0;
         bool isKeyy = false;
         int objectspeed = 30;
-
+       
         public Form1()
         {
             InitializeComponent();
@@ -39,11 +39,18 @@ namespace guitarr
 
         private void Form1_KeyUp(object sender, KeyEventArgs e)
         {
-
+            if(e.KeyCode==Keys.Q)
+            {
+                isKeyy = true;
+            }
         }
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
+            if (isKeyy)
+            {
+                isKeyy = false;
+            }
 
         }
 
