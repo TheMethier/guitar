@@ -46,5 +46,10 @@ namespace guitarr
         {
 
         }
+
+        private void Hitbox(object sender, EventArgs e)
+        {
+
+        }
     }
 }
