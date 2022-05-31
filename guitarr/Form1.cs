@@ -31,7 +31,7 @@ namespace guitarr
 
         private void Stage(object sender, EventArgs e)
         {
-
+            Console.WriteLine("3");
         }
     }
 }
