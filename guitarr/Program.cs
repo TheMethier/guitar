@@ -11,7 +11,7 @@ namespace guitarr
         /// <summary>
         /// Główny punkt wejścia dla aplikacji.
         /// </summary>
-        /// ok
+        /// oki
         [STAThread]
         static void Main()
         {
