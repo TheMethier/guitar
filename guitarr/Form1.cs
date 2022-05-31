@@ -12,6 +12,8 @@ namespace guitarr
 {
     public partial class Form1 : Form
     {
+       
+
         public Form1()
         {
             InitializeComponent();
@@ -31,7 +33,7 @@ namespace guitarr
 
         private void Stage(object sender, EventArgs e)
         {
-            Console.WriteLine("!");
+            Console.WriteLine("3");
         }
     }
 }
